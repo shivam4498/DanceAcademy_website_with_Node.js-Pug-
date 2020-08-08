@@ -1,0 +1,57 @@
+html
+  head
+    title Shivam's Dance Website
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul  
+            div#logo
+                img(src="/static/img/logo.png")
+                | SDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class info]    
+            li #[a(href="/") Contact us]
+    section#introSection
+        div Welcome to Shivam's Dance Academy
+        div.small Eat Sleep Dance Repeat  
+    section#missionSection
+        h2 Our Missions
+        div.car
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p This is the best dance academy of the Chandigarh
+        div.car
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.car
+            h3 Expert teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/img/logo1.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/logo2.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/logo3.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/logo4.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/gg.svg", alt="Sponsor Image", class="spImage")
+    footer#footer
+        | Copyright @  2019  ShivamDanceWebsite.com   |   All  rigths  reserved
+    script
+      include ../static/index.js
+    
